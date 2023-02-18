@@ -16,18 +16,18 @@ import coil.compose.AsyncImage
 
 @Composable
 fun DetailScreen(
-    name:String,
+    name: String,
     age: String,
-    desc:String,
+    desc: String,
     sex: String,
-    image: String
+    image: String,
 ) {
-    fun fixURL(): String{
-        val array= StringBuffer(image)
+    fun fixURL(): String {
+        val array = StringBuffer(image)
         var i = 0
-        while (i< array.length){
-            if (array[i] == '*'){
-                array.setCharAt(i,'/')
+        while (i < array.length) {
+            if (array[i] == '*') {
+                array.setCharAt(i, '/')
             }
 
             i += 1
@@ -43,13 +43,13 @@ fun DetailScreen(
     ) {
 
         AsyncImage(
-        model = fixURL(),
-        contentDescription = null,
-        contentScale = ContentScale.Crop,
-        modifier = Modifier
-            .padding(top = 20.dp)
-            .clip(RoundedCornerShape(16.dp))
-            .size(270.dp)
+            model = fixURL(),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier
+                .padding(top = 20.dp)
+                .clip(RoundedCornerShape(16.dp))
+                .size(270.dp)
         )
         Spacer(modifier = Modifier.height(30.dp))
         Text(
@@ -80,11 +80,6 @@ fun DetailScreen(
             modifier = Modifier
                 .padding(8.dp),
         )
-
-
-
-
-
     }
 }
 
