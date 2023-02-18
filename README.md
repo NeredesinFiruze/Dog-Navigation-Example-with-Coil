@@ -9,7 +9,7 @@
 
 # Previews
 <p align="center">
-<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/tree/main/app/src/main/res/drawable/screenshot1.png" width="30%" />
-<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/tree/main/app/src/main/res/drawable/screenshot2.png" width="30%" />
-<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/tree/main/app/src/main/res/drawable/screenshot3.png" width="30%" />
+<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/main/app/src/main/res/screenshot1.png" width="30%" />
+<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/main/app/src/main/res/screenshot2.png" width="30%" />
+<img src="https://raw.githubusercontent.com/NeredesinFiruze/Dog-Navigation-Example-with-Coil/main/app/src/main/res/screenshot3.png" width="30%" />
 </p>
